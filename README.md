@@ -19,7 +19,7 @@
 ***
 
 ### Or, you can go rogue on algo music and create a nice accompaniment with Melody-conditioned Music AI model:
-### https://colab.research.google.com/notebooks/magenta/piano_transformer/piano_transformer.ipynb
+### https://github.com/asigalov61/Google-Magenta-Piano-Transformer-Colab
 
 ***
 
