@@ -1,5 +1,5 @@
 # Markovify Piano
-## Coherent and plausible Piano music generation with Markov-chain/model
+## Coherent and plausible multi-instrumental music generation with Markov-chain/model
 
 ***
 
