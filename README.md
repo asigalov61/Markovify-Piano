@@ -3,8 +3,14 @@
 
 ***
 
-### Based upon absolutely amazing markovify package of @jsvine:
+### Based upon absolutely amazing markovify package @ jsvine:
 ### https://github.com/jsvine/markovify
+
+***
+
+### Exclusive Multi-Instrumental and Piano samples now available for listening here:
+
+### https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-markovify
 
 ***
 
