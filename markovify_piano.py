@@ -150,12 +150,12 @@ markov_text_model = markovify.Text.from_json(model_json)
 #@markdown 3) MIDI Channel = -1 means all MIDI channels. MIDI Channel = 16 means all channels will be processed. Otherwise, only single indicated MIDI channel will be processed.
 
 file_name_to_output_dataset_to = "/content/Markovify-Piano-Music-TXT-Dataset" #@param {type:"string"}
-desired_MIDI_channel_to_process = 0 #@param {type:"slider", min:-1, max:16, step:1}
+desired_MIDI_channel_to_process = 16 #@param {type:"slider", min:-1, max:16, step:1}
 encode_MIDI_channels = True #@param {type:"boolean"}
 encode_velocities = False #@param {type:"boolean"}
 chordify_input_MIDIs = False #@param {type:"boolean"}
-melody_conditioned_encoding = True #@param {type:"boolean"}
-melody_pitch_baseline = 1 #@param {type:"slider", min:1, max:127, step:1}
+melody_conditioned_encoding = False #@param {type:"boolean"}
+melody_pitch_baseline = 60 #@param {type:"slider", min:1, max:127, step:1}
 time_denominator = 1 #@param {type:"slider", min:1, max:20, step:1}
 chars_encoding_offset = 30000 #@param {type:"number"}
 
@@ -266,7 +266,7 @@ print('Dataset loaded! Enjoy :)')
 """# Train TXT Markov chain/model"""
 
 #@title Train Markov-chain/model
-markov_chain_state_size = 10 #@param {type:"slider", min:1, max:10, step:1}
+markov_chain_state_size = 5 #@param {type:"slider", min:1, max:30, step:1}
 
 print('Training Markov chain/model. Please wait...')
 markov_text_model = markovify.NewlineText(text, well_formed=False, state_size=markov_chain_state_size)
@@ -321,14 +321,14 @@ print('Model loaded and restored! Enjoy! :)')
 
 #@markdown NOTE: For practical purposes only the longest attempt is returned.
 
-minimum_number_of_characters_to_generate = 350 #@param {type:"slider", min:50, max:1500, step:100}
-number_of_cycles_to_try_to_generate_desired_result = 10000 #@param {type:"slider", min:10, max:10000, step:10}
-minimum_notes_to_generate = 150 #@param {type:"slider", min:10, max:1000, step:10}
-overlap_ratio = 0.7 #@param {type:"slider", min:0.1, max:1, step:0.05}
-max_overlap_notes_total = 16 #@param {type:"slider", min:1, max:100, step:1}
+minimum_number_of_characters_to_generate = 150 #@param {type:"slider", min:50, max:1500, step:100}
+minimum_notes_to_generate = 500 #@param {type:"slider", min:10, max:5000, step:10}
+number_of_cycles_to_try_to_generate_desired_result = 5000 #@param {type:"slider", min:10, max:10000, step:10}
+overlap_ratio = 0.6 #@param {type:"slider", min:0.1, max:0.95, step:0.05}
+max_overlap_notes_total = 100 #@param {type:"slider", min:1, max:200, step:1}
 let_run_wild = False #@param {type:"boolean"}
 full_path_to_input_MIDI_file = "" #@param {type:"string"}
-enable_plagiarizm_check = False #@param {type:"boolean"}
+enable_plagiarizm_check = True #@param {type:"boolean"}
 print_generated_song = False #@param {type:"boolean"}
 
 Output_TXT_String = ''
