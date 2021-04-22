@@ -8,7 +8,7 @@
 
 ***
 
-### Try it quickly and freely in Google Colab:
+### Try Markovify-Piano quickly and freely in Google Colab:
 
 [![Open In Colab][colab-badge]][colab-notebook]
 
