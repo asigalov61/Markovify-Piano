@@ -3,6 +3,10 @@
 
 ***
 
+## Project Los Angeles is proud to present Markovify-Piano: a fully-featured Algorithmic Intelligence Paulstretch and Symbolic Music Augmentator
+
+***
+
 ### Based upon absolutely amazing markovify package @ jsvine:
 ### https://github.com/jsvine/markovify
 
