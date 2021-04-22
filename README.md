@@ -8,6 +8,15 @@
 
 ***
 
+### Try it quickly and freely in Google Colab:
+
+[![Open In Colab][colab-badge]][colab-notebook]
+
+[colab-notebook]: <https://colab.research.google.com/github/asigalov61/Markovify-Piano/blob/main/Markovify_Piano.ipynb>
+[colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
+
+***
+
 ### Exclusive Multi-Instrumental and Piano samples now available for listening here:
 
 ### https://soundcloud.com/aleksandr-sigalov-61/sets/exclusive-preview-markovify
