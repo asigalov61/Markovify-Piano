@@ -1,8 +1,4 @@
 # Markovify Piano
-## Coherent and plausible multi-instrumental music generation with Markov-chain/model
-
-***
-
 ## Project Los Angeles is proud to present Markovify-Piano: a fully-featured Algorithmic Intelligence Paulstretch and Symbolic Music Augmentator
 
 ***
