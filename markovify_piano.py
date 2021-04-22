@@ -83,7 +83,7 @@ print('Loading complete. Enjoy! :)')
 
 #@markdown NOTE: You can jump straight to music generation after running this code/cell. The model will be loaded and prepped for use.
 
-#@markdown NOTE: This is a model without the velocity so make sure to turn-off the "encoding_has_velocities" option and turn on the "simulate_velocity option"
+#@markdown NOTE: This is a model without the velocity and MIDI channels, so make sure to turn-off the "encoding_has_velocities" and "encoding_has_MIDI_channels" options and turn on the "simulate_velocity option"
 # %cd /content/
 
 !wget --no-check-certificate -O Markovify-Piano-Melodies-Music-Model.zip "https://onedrive.live.com/download?cid=8A0D502FC99C608F&resid=8A0D502FC99C608F%2118483&authkey=ABcsBJclHUenKxg"
@@ -101,7 +101,7 @@ markov_text_model = markovify.Text.from_json(model_json)
 
 #@markdown Works best stand-alone/as-is for the optimal results
 
-#@markdown NOTE: This is a dataset without the velocity so make sure to turn-off the "encoding_has_velocities" option and turn on the "simulate_velocity option"
+#@markdown NOTE: This is a dataset without the velocity and MIDI channels, so make sure to turn-off the "encoding_has_velocities" and "encoding_has_MIDI_channels" options and turn on the "simulate_velocity option"
 
 # %cd /content/
 
