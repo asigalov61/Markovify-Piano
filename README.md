@@ -1,7 +1,10 @@
 # Markovify Piano
-## Project Los Angeles is proud to present Markovify-Piano: a full-featured Algorithmic Intelligence Symbolic Music Paulstrech Augmentator and Generator
+
+<img width="512" src="https://github.com/asigalov61/Markovify-Piano/raw/main/Artwork/Markovify_Piano.jpg">
 
 ***
+
+## Project Los Angeles is proud to present Markovify-Piano: a full-featured Algorithmic Intelligence Symbolic Music Paulstrech Augmentator and Generator
 
 ## Multi-instrumental MIDI implementation
 
